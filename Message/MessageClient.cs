@@ -10,10 +10,10 @@ using System.IO;
 
 using System.Diagnostics;
 
-using FakeServer.Network.Information;
+using FakeServer.Netcode.Scheme;
 using Newtonsoft.Json;
 
-namespace FakeServer.Network
+namespace FakeServer.Netcode
 {
     // イベント処理用のデリゲート
     //    delegate void ReciveMessage(object sender);

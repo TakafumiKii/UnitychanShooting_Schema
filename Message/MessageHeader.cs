@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 using System.Net;
 
-namespace FakeServer.Network
+namespace FakeServer.Netcode
 {
     class MessageHeader
     {

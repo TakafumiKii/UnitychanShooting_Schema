@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.Net.Sockets;
 
-namespace FakeServer.Network
+namespace FakeServer.Netcode.Message
 {
     // メッセージ送信タスク管理用ワーク
     public class SendMessageWork //: Task

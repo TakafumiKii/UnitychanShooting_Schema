@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using System.Diagnostics;
 using Newtonsoft.Json;
 
-namespace FakeServer.Network
+namespace FakeServer.Netcode.Message
 {
     class MessageManager
     {
@@ -253,7 +253,7 @@ namespace FakeServer.Network
         }
         public SendMessageWork SendSystemMessage(string name, object obj)
         {
-            MessageHeader.RawData head = new Network.MessageHeader.RawData();
+            MessageHeader.RawData head = new MessageHeader.RawData();
             if (obj == null)
             {
                 int sendSize = head.SetupSystem(name, 0);

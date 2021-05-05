@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-namespace FakeServer.Network.Information
+namespace FakeServer.Netcode.Scheme
 {
     [JsonObject("user_info")]
     public class UserInfo
