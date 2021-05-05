@@ -13,7 +13,7 @@ using System.Diagnostics;
 using FakeServer.Netcode.Scheme;
 using Newtonsoft.Json;
 
-namespace FakeServer.Netcode
+namespace FakeServer.Netcode.Message
 {
     // イベント処理用のデリゲート
     //    delegate void ReciveMessage(object sender);
