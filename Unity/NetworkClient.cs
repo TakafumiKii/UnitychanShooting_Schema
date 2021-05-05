@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using FakeServer.Network;
-using FakeServer.Network.Information;
 
 using System;
 using System.IO;
@@ -12,6 +10,8 @@ using Newtonsoft.Json;
 
 namespace FakeServer.Unity
 {
+    using Netcode.Message;
+    using Netcode.Scheme;
     public class NetworkClient : MonoBehaviour
     {
         [SerializeField] string IPAddress = "localhost";
